@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Selecting Elements - JavaScript DOM Manipulation</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Header Part Design - Full Responsive</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="boxes">
-        <div id="box1" class="box" data-atr="box1" data-extra="attrToRemove">
-          <h4>Box 1</h4>
+</head>
+<body>
+    <section class="main">
+        <header>
+            <a href="#">
+                <img src="img/logo.png" class="logo" alt="">
+            </a>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>It's Finger<br>Lickin <span>Good</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam amet odio ad! Odio amet, provident, maiores unde facilis quam itaque totam voluptatum fuga quis, nesciunt animi inventore saepe quas quia iusto delectus fugit necessitatibus illo!</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="slider">
+                <img src="img/burger_fries.png" alt="">
+            </div>
         </div>
-        <div id="box2" class="box" data-atr="box2">
-          <h4>Box 2</h4>
-        </div>
-        <div id="box3" class="box" data-atr="box3">
-          <h4>Box 3</h4>
-          Lorem ipsum <strong>dolor sit</strong>
-          <p class="box3-paragraph">amet, <em>consectetur</em> adipisicing elit, <strong>sed do eiusmod</strong> tempor incididunt ut labore et dolore magna aliqua</p>
-        </div>
-        <div id="box4" class="box" data-atr="box4">
-          <h4>Box 4</h4>
-          <ul>
-            <li>About this document</li>
-            <li><a href="#">JavaScript DOM Manipulation</a></li>
-            <li><a href="#">Learn With Zonayed</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <script src="script.js" charset="utf-8"></script>
-  </body>
+    </section>
+</body>
 </html>
